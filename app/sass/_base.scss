@@ -1,0 +1,42 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  &:before,
+  &:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  &::-webkit-input-placeholder,
+  &:-moz-placeholder,
+  &::-moz-placeholder,
+  &:-ms-input-placeholder {
+    color: #666;
+    opacity: 1;
+  }
+}
+
+body {
+  input:focus:required:invalid,
+  textarea:focus:required:invalid,
+  input:required:valid,
+  textarea:required:valid {
+    color: #666;
+  }
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  font-family: "Junction";
+  overflow-x: hidden;
+  opacity: 1;
+}

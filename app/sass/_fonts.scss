@@ -1,0 +1,4 @@
+@import "_mixins/font-face";
+@include font-face("Junction", "../fonts/junction/regular", 400);
+@include font-face("Junction", "../fonts/junction/light", 300);
+@include font-face("Junction", "../fonts/junction/bold", 700);
